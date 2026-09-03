@@ -4,7 +4,7 @@
 
 ## M0 — 方法校准
 
-- [ ] `docs/METHOD.md`：Problem Episode 定义；
+- [x] `docs/METHOD.md`：Problem Episode 定义；
 - [x] `docs/IDENTITY-CHECK.md`：问题同一性、连续性与后继关系的裁决规则；
 - [ ] `docs/FAILURE-MODES.md`：后见之明、永恒问题幻觉、同词=同问题等错误；
 - [ ] `schemas/problem-episode.schema.json`；
