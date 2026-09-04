@@ -7,9 +7,9 @@
 - [x] `docs/METHOD.md`：Problem Episode 定义与执行流程；
 - [x] `docs/IDENTITY-CHECK.md`：问题同一性、连续性与后继关系的裁决规则；
 - [x] `docs/FAILURE-MODES.md`：后见之明、永恒问题幻觉、同词=同问题等错误；
-- [ ] `schemas/problem-episode.schema.json`；
+- [x] `schemas/problem-episode.schema.json`（Draft 2020-12 原型、虚构 fixtures 与 validator）；
 - [x] 设计边类型：`continuous / reformulated / transformed_successor / split / merged / displaced / revived / analogy_only / unrelated / undetermined`；
-- [x] 建立 source citation 最小规范：`docs/SOURCE-CITATION.md`。
+- [x] 建立 source citation 最小规范：`docs/SOURCE-CITATION.md`；数据合同细节见 `docs/DATA_MODEL.md`。
 
 ### M0 验收
 

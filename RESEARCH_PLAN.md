@@ -4,9 +4,9 @@
 
 - [ ] `docs/METHOD.md`：Problem Episode、formulation、presupposition、answer-space、competition；
 - [ ] `docs/FAILURE-MODES.md`：至少 10 类后见之明/同词同问题/线性进步等错误，并配 AI 自检问题；
-- [ ] `schemas/problem-episode.schema.json`；
-- [ ] 关系类型：reformulated / narrowed / broadened / split / merged / displaced / revived；
-- [ ] source citation 最小规范；
+- [x] `schemas/problem-episode.schema.json`（Draft 2020-12 原型、虚构 fixtures 与 validator）；
+- [x] 关系类型：continuous / reformulated / transformed_successor / split / merged / displaced / revived / analogy_only / unrelated / undetermined；
+- [x] source citation 最小规范（见 `docs/DATA_MODEL.md`）；
 - [ ] 5 段历史文本的双-agent 校准 fixture。
 
 验收：能稳定区分“明确问题 / 可支持前提 / 研究者推断”。若做不到，先改方法。
