@@ -359,6 +359,12 @@ Caroline Sumpter, “‘No Artist Has Ethical Sympathies’: Oscar Wilde, Aesthe
 
 Cambridge scholarship on the novel's reception also records the moral criticism surrounding the 1890 magazine publication and Wilde's defence of artistic freedom before the 1891 book version.
 
+### Wilde's 1890 replies — actor-side context and counterevidence
+
+[Dated reply passages and source boundaries](sources/wilde-1890-replies.md), source `src-wilde-1890-replies-ross-1908`, add Wilde's own interventions before the Preface: letters I/III dispute moral criticism and restrictions on artistic subject-matter; V distinguishes a moral as a dramatic element from the work's purpose, while admitting uncertainty about keeping it subordinate; VII/VIII acknowledge moral readings and ethical beauty without making them the sole artistic criterion.
+
+These passages give concrete support for the caution below: refusing moral utility as the governing criterion does not mean denying moral content or effects. They are **1890 actor letters through a 1908 edited collection and later transcription**, not newly checked newspaper facsimiles. Their accounts of critics and readers are Wilde's own reports, not independent opponent texts or measured reception. The linked note separates publication from writing dates, preserves surrounding qualifications, and states the limited scope of the reused Sumpter source check; the full reception chain remains open.
+
 ### Actor formulation
 
 This is best used as a **counter-formulation**, not as evidence that Wilde believed art has no effects, meanings, social consequences, or value.
@@ -482,6 +488,7 @@ This makes `split`, `transformed_successor`, `displaced`, and `analogy_only` gen
 | Arnold assigns poetry interpretive/consolatory/sustaining future functions and a high evaluative standard | 1880 text | High | actor |
 | Wilde rejects moral/immoral classification of books and moral usefulness as governing artistic criterion | 1891 Preface | High | actor |
 | Wilde's Preface belongs to a moral/aesthetic reception controversy | Cambridge scholarship + publication history | High for context | later reconstruction of immediate context |
+| Wilde contests moral criticism, distinguishes moral content from artistic purpose, and acknowledges moral readings | [Wilde reply source note](sources/wilde-1890-replies.md), `src-wilde-1890-replies-ross-1908`, letters I/III/V/VII/VIII | Direct wording in the consulted transcription; original pages uncollated | actor letters through a 1908 edited witness; reported reception is not independently verified |
 | 1595→1891 forms one problem lineage | not established | Low / undetermined | researcher hypothesis |
 
 ---
@@ -588,6 +595,6 @@ But the third node may need to split into two episodes rather than be forced int
 1. Collate the located Gosson witness and investigate Sidney's uptake and answering passages; the selected direct quotations and exceptions above do not yet reconstruct the full exchange.
 2. Collate the located 1921 Peacock reprint with the 1820 original and test satire/rhetorical provocation against correspondence and audience evidence before treating it as stable proposition.
 3. Compare Shelley's immediate response drafts with the finished *Defence* and its 1840 publication, keeping composition, editorial changes and public reception distinct.
-4. Reconstruct the 1890–91 *Dorian Gray* reception chain from contemporary reviews, Wilde's replies, the 1891 Preface, and revised novel.
+4. Reconstruct the 1890–91 *Dorian Gray* reception chain from contemporary reviews, Wilde's replies, the 1891 Preface, and revised novel. The [located reply passages](sources/wilde-1890-replies.md) now supply one actor's side through a later edition; original-letter collation, independent opponent texts and the full chain remain open.
 5. Only after those source checks, run pairwise `IDENTITY-CHECK` for Sidney→Shelley, Peacock→Shelley, Shelley→Arnold, Arnold→Wilde.
 6. Compare this candidate's final M1 score against the remaining three un-surveyed candidates before selecting a pilot.
