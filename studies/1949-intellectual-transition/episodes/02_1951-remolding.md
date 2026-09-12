@@ -1,6 +1,7 @@
 # Episode 02 — 1951：知识分子的核心问题被收束为“怎样进入新的政治位置”
 
 ```yaml
+episode_id: 1951-remolding
 problem_id: intellectual-political-remolding
 period: 1951-1952
 status: active

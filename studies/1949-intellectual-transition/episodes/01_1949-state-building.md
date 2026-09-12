@@ -1,6 +1,7 @@
 # Episode 01 — 1949：国家成立之后，知识开始被作为“建设能力”组织
 
 ```yaml
+episode_id: 1949-state-building
 problem_id: knowledge-state-building
 period: 1949
 status: emerged
