@@ -59,13 +59,28 @@ one recoverable institutional event without further source work
 
 ### Contemporary / official Department of Labor evidence
 
-A GovInfo-preserved U.S. Department of Labor FY1961 report gives a more precise formulation than the previous packet had available. Its searchable record states that the **Office of Automation and Manpower was created by General Order No. 110 on 20 April 1961**.
+A GovInfo-preserved U.S. Department of Labor FY1961 report gives a more precise formulation than the previous packet had available. The personnel-list footnote, checked against the scanned page, states that the **Office of Automation and Manpower was created by General Order No. 110 on 20 April 1961**.
 
 GovInfo record / PDF entry:
 
 <https://www.govinfo.gov/content/pkg/GOVPUB-L-4d879b5f25e7274e409c3f421cb68050/pdf/GOVPUB-L-4d879b5f25e7274e409c3f421cb68050.pdf>
 
 The same official record also identifies Deputy Assistant Secretary **Seymour Wolfbein** as the Office's director.
+
+### Exact source and page-image checks
+
+Source: U.S. Department of Labor, *United States Department of Labor Annual Report, 1961*; Arthur J. Goldberg, Secretary. The title is verified on the unnumbered title page (PDF page 3). Digital carrier: GovInfo, package `GOVPUB-L-4d879b5f25e7274e409c3f421cb68050`, 312-page scanned PDF at the URL above. Accessed and page images checked **14 September 2026 (UTC+8)**. These checks identify this report and its statements, not the original orders themselves.
+
+PDF page numbers below count from 1, including the cover; they are not the printed page numbers.
+
+| Printed locator | PDF page | What the image supports |
+|---|---:|---|
+| p. ii, personnel list, footnote 11 | 4 | Wolfbein's designation effective 20 April 1961; office created by General Order No. 110, 20 April 1961 |
+| p. 4, “Major New Policies and Activities” → “Employment” → “Automation,” opening paragraph | 10 | The Department reports establishment on 20 April 1961 and describes the office as a federal operational unit |
+
+**OCR trap:** in this PDF's searchable text, the opening sentence on printed p. 4 is extracted as “On April 10, 1961”. The page image instead reads **“On April 20, 1961”**, agreeing with footnote 11 on p. ii. The extracted `10` is a digital transcription error, **not a third establishment date or a disagreement between the two printed passages**. Use the images for these dates; an OCR search hit is only a locator.
+
+The two passages are internal corroboration within **one report**, not two independent sources. Also, `FY1961` names the reporting period: the personnel-list footnotes include later 1961 appointments, so it does not establish that the report text was fixed by the end of that fiscal year. Neither passage resolves what happened between the April and October orders.
 
 ### Evidence function
 
@@ -101,6 +116,8 @@ The National Archives' administrative history for **Record Group 369, Records of
 National Archives, RG 369:
 
 <https://www.archives.gov/research/guide-fed-records/groups/369.html>
+
+Exact locator: **§369.7, “Records of the Office of Policy, Evaluation, and Research 1963–67,” History paragraph**. The HTML guide was accessed on 14 September 2026 (UTC+8); this is a later archival description, not a facsimile or transcription of Secretary's Order 5-61. The same paragraph supplies the OAM → OMAT succession discussed below.
 
 This is not weak evidence that can simply be discarded because the April source is earlier. It is an authoritative archival lineage statement using a different administrative instrument.
 
@@ -259,6 +276,7 @@ Only the NARA-recognized successor edge should be treated as direct at present. 
 5. **Archive guide = original actor text.** NARA's administrative history is a later authoritative finding aid, not Secretary's Order 5-61 itself.
 6. **Contemporary annual report = original order text.** It strongly identifies the April order but cannot support wording that only the signed order would establish.
 7. **Same office name = same institutional configuration.** The April and October instruments may concern different organizational dimensions; this must be proved, not guessed.
+8. **Searchable PDF text = verified date.** The p. 4 OCR's `April 10` is contradicted by its own page image, which reads `April 20`; do not promote a transcription error into another historical event.
 
 ---
 
