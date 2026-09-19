@@ -1,0 +1,411 @@
+{
+  "$schema": "../../schemas/problem-episode.schema.json",
+  "schema_version": "0.1.0",
+  "record_type": "problem_episode",
+  "episode_id": "harbor-night-signal-fuel-1880",
+  "title": "Fictional fixture: allocating fuel for harbor night signals",
+  "is_fixture": true,
+  "period": {
+    "label": "1880 harbor-board inquiry",
+    "start_year": 1880,
+    "end_year": 1881,
+    "precision": "exact",
+    "evidence_ids": [
+      "fuel-inquiry-date"
+    ],
+    "note": "The invented inquiry opens in 1880 and reports in 1881."
+  },
+  "status": "transformed",
+  "context": [
+    {
+      "claim_id": "fuel-delivery-context",
+      "statement": "Night signals depend on delivered lamp fuel and keeper labor.",
+      "epistemic_status": "actor_explicit",
+      "evidence_ids": [
+        "fuel-ledger-costs",
+        "fuel-keeper-petition"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "actors": [
+    {
+      "actor_id": "fuel-harbor-board",
+      "label": "Fictional Harbor Signal Board",
+      "role": "Allocates the signal budget and issues the inquiry.",
+      "evidence_ids": [
+        "fuel-inquiry-date",
+        "fuel-question"
+      ]
+    },
+    {
+      "actor_id": "fuel-keeper-guild",
+      "label": "Fictional Signal Keepers' Guild",
+      "role": "Argues that staffing and relighting time constrain coverage.",
+      "evidence_ids": [
+        "fuel-keeper-petition"
+      ]
+    }
+  ],
+  "formulations": [
+    {
+      "formulation_id": "fuel-board-formulation",
+      "text": "Which harbor entrances should receive a continuous night flame when the annual fuel allotment cannot supply every lamp?",
+      "source_type": "actor_explicit",
+      "actor_ids": [
+        "fuel-harbor-board"
+      ],
+      "evidence_ids": [
+        "fuel-question"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "continuous night flame",
+      "term_source_type": "actor_explicit",
+      "meaning_in_context": "A lamp kept lit from dusk to dawn by a staffed signal station.",
+      "evidence_ids": [
+        "fuel-question",
+        "fuel-keeper-petition"
+      ]
+    }
+  ],
+  "institutions": [
+    {
+      "institution_id": "fuel-signal-board",
+      "label": "Fictional Harbor Signal Board",
+      "role": "Defines eligible entrances and distributes a fixed annual fuel allotment.",
+      "evidence_ids": [
+        "fuel-question",
+        "fuel-ledger-costs"
+      ]
+    }
+  ],
+  "stakes": [
+    {
+      "claim_id": "fuel-navigation-stake",
+      "statement": "Continuous coverage is treated as a navigation-safety benefit, while each additional station consumes scarce fuel and labor.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "fuel-question",
+        "fuel-ledger-costs"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "presuppositions": [
+    {
+      "claim_id": "fuel-consumable-presupposition",
+      "statement": "A reliable night signal requires a locally tended flame and a recurring material supply.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "fuel-ledger-costs",
+        "fuel-keeper-petition"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "answer_space": {
+    "accepted": [
+      {
+        "claim_id": "fuel-traffic-priority-answer",
+        "statement": "Give continuous flames to the busiest entrances and use scheduled flames elsewhere.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "fuel-majority-proposal"
+        ],
+        "certainty": "high"
+      }
+    ],
+    "marginal": [
+      {
+        "claim_id": "fuel-reflector-answer",
+        "statement": "Test passive reflective boards at minor entrances instead of staffed lamps.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "fuel-majority-proposal"
+        ],
+        "certainty": "medium"
+      }
+    ],
+    "unthinkable_or_impossible": [
+      {
+        "claim_id": "fuel-unattended-answer",
+        "statement": "An unattended signal that can change itself in response to ship traffic is excluded as unavailable in the inquiry's own inventory of options.",
+        "epistemic_status": "context_supported",
+        "evidence_ids": [
+          "fuel-majority-proposal"
+        ],
+        "certainty": "medium"
+      }
+    ],
+    "scope_note": "The fixture records only options named or explicitly excluded in the invented inquiry; it does not infer every imaginable answer."
+  },
+  "competing_formulations": [
+    {
+      "formulation_id": "fuel-keepers-formulation",
+      "text": "How many stations can keepers safely tend without shortening relighting inspections?",
+      "source_type": "actor_explicit",
+      "actor_ids": [
+        "fuel-keeper-guild"
+      ],
+      "evidence_ids": [
+        "fuel-keeper-petition"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "fuel-board-minutes",
+      "source_type": "institutional_record",
+      "citation": "Invented Harbor Signal Board, Minutes of the Fuel Inquiry (1880–1881).",
+      "locator": "folios 1r, 12v, and 18r",
+      "retrievable": false,
+      "notes": "Fictional calibration source; no historical claim is intended."
+    },
+    {
+      "source_id": "fuel-annual-ledger",
+      "source_type": "institutional_record",
+      "citation": "Invented Harbor Signal Board, Annual Fuel and Wage Ledger (1880).",
+      "locator": "table 4",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    },
+    {
+      "source_id": "fuel-keepers-petition",
+      "source_type": "primary_text",
+      "citation": "Invented Signal Keepers' Guild, Petition on Night Coverage (1881).",
+      "locator": "paragraphs 2–4",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "fuel-inquiry-date",
+      "source_id": "fuel-board-minutes",
+      "evidence_type": "quotation",
+      "locator": "folio 1r",
+      "excerpt": "The inquiry shall sit from September 1880 and deliver its report before February 1881.",
+      "interpretation": "Dates the fictional episode."
+    },
+    {
+      "evidence_id": "fuel-question",
+      "source_id": "fuel-board-minutes",
+      "evidence_type": "quotation",
+      "locator": "folio 12v",
+      "excerpt": "Which entrances shall retain a continuous night flame where the allotment cannot furnish every lamp?",
+      "interpretation": "Supplies an explicit actor formulation and the scarcity constraint."
+    },
+    {
+      "evidence_id": "fuel-majority-proposal",
+      "source_id": "fuel-board-minutes",
+      "evidence_type": "quotation",
+      "locator": "folio 18r",
+      "excerpt": "The majority assigns full flame to the three busiest channels, scheduled lighting to the remainder, and a trial of reflector boards; no unattended changing apparatus is available to this board.",
+      "interpretation": "Bounds the accepted, marginal, and explicitly unavailable answer space."
+    },
+    {
+      "evidence_id": "fuel-ledger-costs",
+      "source_id": "fuel-annual-ledger",
+      "evidence_type": "context",
+      "locator": "table 4",
+      "excerpt": "Each station is itemized by oil deliveries, wick replacement, and keeper wages.",
+      "interpretation": "Supports the episode's material and labor presuppositions."
+    },
+    {
+      "evidence_id": "fuel-keeper-petition",
+      "source_id": "fuel-keepers-petition",
+      "evidence_type": "quotation",
+      "locator": "paragraphs 2–4",
+      "excerpt": "More lamps without more hands will shorten inspection rounds and delay every relighting after wind failure.",
+      "interpretation": "Provides a competing labor-safety formulation."
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "fuel-to-control",
+      "source_episode_id": "harbor-night-signal-fuel-1880",
+      "target_episode_id": "harbor-signal-control-1950",
+      "relation": "transformed_successor",
+      "identity_status": "provisional",
+      "confidence": "medium",
+      "identity_claims": [
+        {
+          "claim_id": "control-actor-continuity-claim",
+          "claimant_type": "later_actor",
+          "proposed_relation": "continuous",
+          "evidence_ids": [
+            "control-retrospective"
+          ],
+          "note": "The later board calls its work the same signaling problem; this is preserved as an actor claim, not adopted automatically."
+        },
+        {
+          "claim_id": "fixture-successor-claim",
+          "claimant_type": "agent",
+          "proposed_relation": "transformed_successor",
+          "evidence_ids": [
+            "fuel-question",
+            "control-question",
+            "control-wireless-network"
+          ],
+          "note": "Institutional succession is visible, but the target, presuppositions, and answer space change."
+        }
+      ],
+      "continuity_evidence": [
+        {
+          "dimension": "historical_recognition",
+          "evidence_ids": [
+            "control-retrospective"
+          ],
+          "note": "The later institution explicitly claims continuity with the fuel-allocation inquiry."
+        },
+        {
+          "dimension": "stakes",
+          "evidence_ids": [
+            "fuel-question",
+            "control-question"
+          ],
+          "note": "Both disputes concern reliable night signaling at harbor entrances."
+        }
+      ],
+      "discontinuity_evidence": [
+        {
+          "dimension": "presuppositions",
+          "evidence_ids": [
+            "fuel-ledger-costs",
+            "control-wireless-network"
+          ],
+          "note": "Local fuel and keeper labor cease to be the supply constraint in the networked episode."
+        },
+        {
+          "dimension": "answer_space",
+          "evidence_ids": [
+            "fuel-majority-proposal",
+            "control-governance-options"
+          ],
+          "note": "Fuel schedules do not answer who may control automatic signal changes."
+        }
+      ],
+      "dimensions": {
+        "target_object": {
+          "assessment": "partial",
+          "evidence_ids": [
+            "fuel-question",
+            "control-question"
+          ],
+          "counterevidence_ids": [
+            "control-wireless-network"
+          ],
+          "note": "Harbor signals persist, but allocation of flames becomes authority over a network."
+        },
+        "stakes": {
+          "assessment": "partial",
+          "evidence_ids": [
+            "fuel-question",
+            "control-question"
+          ],
+          "counterevidence_ids": [
+            "control-governance-options"
+          ],
+          "note": "Safety remains, while procedural legitimacy becomes a new stake."
+        },
+        "presuppositions": {
+          "assessment": "no",
+          "evidence_ids": [
+            "fuel-ledger-costs"
+          ],
+          "counterevidence_ids": [
+            "control-wireless-network"
+          ],
+          "note": "The later system no longer depends on fuel delivery to each signal."
+        },
+        "answer_space": {
+          "assessment": "no",
+          "evidence_ids": [
+            "fuel-majority-proposal"
+          ],
+          "counterevidence_ids": [
+            "control-governance-options"
+          ],
+          "note": "The earlier allocation answers are category-mismatched to the later control dispute."
+        },
+        "historical_recognition": {
+          "assessment": "medium",
+          "evidence_ids": [
+            "control-retrospective"
+          ],
+          "counterevidence_ids": [],
+          "note": "A direct retrospective claim exists, but it may be institutional self-narration."
+        },
+        "askability": {
+          "assessment": "ruptured",
+          "evidence_ids": [
+            "control-wireless-network"
+          ],
+          "counterevidence_ids": [
+            "fuel-ledger-costs"
+          ],
+          "note": "Remote control becomes askable only after networked signals replace locally tended flames."
+        }
+      },
+      "tests": {
+        "answer_transfer": {
+          "outcome": "category_error",
+          "evidence_ids": [
+            "fuel-majority-proposal",
+            "control-governance-options"
+          ],
+          "reasoning": "Traffic-priority fuel schedules do not decide which body may issue automatic control rules."
+        },
+        "presupposition_removal": {
+          "outcome": "collapses",
+          "evidence_ids": [
+            "fuel-ledger-costs",
+            "control-wireless-network"
+          ],
+          "reasoning": "Removing local fuel consumption dissolves the earlier scarcity formulation."
+        },
+        "historical_recognition": {
+          "outcome": "medium",
+          "evidence_ids": [
+            "control-retrospective"
+          ],
+          "reasoning": "The later board names a lineage, but the fixture supplies no independent transmission record."
+        }
+      },
+      "decision_note": "The edge records historical succession without silently turning the later board's continuity claim into repository fact.",
+      "reviewed_by": []
+    }
+  ],
+  "hindsight_risks": [
+    {
+      "risk_id": "fuel-automation-hindsight",
+      "description": "A modern reader may redescribe the inquiry as a generic automation problem.",
+      "mitigation": "Keep the actor's fuel-allocation wording primary and treat automation only as an unavailable option explicitly named in the fixture.",
+      "evidence_ids": [
+        "fuel-question",
+        "fuel-majority-proposal"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "risk_id": "fuel-representativeness",
+      "description": "The fictional surviving minutes may omit proposals made outside the board.",
+      "mitigation": "Keep answer-space claims limited to the invented record set.",
+      "evidence_ids": [
+        "fuel-majority-proposal"
+      ]
+    }
+  ],
+  "audit": {
+    "record_status": "draft",
+    "created_by": "fixture-author",
+    "last_updated": "2026-09-01",
+    "reviewed_by": []
+  }
+}
