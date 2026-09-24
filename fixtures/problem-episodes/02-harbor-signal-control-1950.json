@@ -1,0 +1,403 @@
+{
+  "$schema": "../../schemas/problem-episode.schema.json",
+  "schema_version": "0.1.0",
+  "record_type": "problem_episode",
+  "episode_id": "harbor-signal-control-1950",
+  "title": "Fictional fixture: authority over a networked harbor signal system",
+  "is_fixture": true,
+  "period": {
+    "label": "1950 network-control reorganization",
+    "start_year": 1949,
+    "end_year": 1951,
+    "precision": "bounded_by_sources",
+    "evidence_ids": [
+      "control-reorganization-date"
+    ],
+    "note": "The invented records bracket the dispute between a 1949 installation and a 1951 rule."
+  },
+  "status": "active",
+  "context": [
+    {
+      "claim_id": "control-network-context",
+      "statement": "Signal states can be changed remotely from a shared control network rather than by keepers at each entrance.",
+      "epistemic_status": "actor_explicit",
+      "evidence_ids": [
+        "control-wireless-network"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "actors": [
+    {
+      "actor_id": "control-port-engineers",
+      "label": "Fictional Port Engineering Office",
+      "role": "Operates the network and requests discretion to alter signals during congestion.",
+      "evidence_ids": [
+        "control-engineer-request"
+      ]
+    },
+    {
+      "actor_id": "control-municipal-council",
+      "label": "Fictional Municipal Harbor Council",
+      "role": "Claims authority to define the rules governing remote changes.",
+      "evidence_ids": [
+        "control-council-rule"
+      ]
+    }
+  ],
+  "formulations": [
+    {
+      "formulation_id": "control-reconstructed-formulation",
+      "text": "Who may authorize automatic or discretionary changes to shared harbor signals, and under what public rule?",
+      "source_type": "actor_reconstructed",
+      "actor_ids": [
+        "control-port-engineers",
+        "control-municipal-council"
+      ],
+      "evidence_ids": [
+        "control-engineer-request",
+        "control-council-rule"
+      ],
+      "certainty": "medium",
+      "reconstruction_note": "No participant asks this exact umbrella question; it is reconstructed from conflicting requests about discretion and rule-making authority."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "control rule",
+      "term_source_type": "actor_explicit",
+      "meaning_in_context": "A published condition under which the shared network may change a signal state.",
+      "evidence_ids": [
+        "control-council-rule"
+      ]
+    }
+  ],
+  "institutions": [
+    {
+      "institution_id": "control-shared-network",
+      "label": "Fictional Shared Signal Network",
+      "role": "Makes remote and coordinated changes technically available.",
+      "evidence_ids": [
+        "control-wireless-network"
+      ]
+    }
+  ],
+  "stakes": [
+    {
+      "claim_id": "control-legitimacy-stake",
+      "statement": "The dispute joins navigation safety to the legitimacy and auditability of remote decisions.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "control-engineer-request",
+        "control-council-rule"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "presuppositions": [
+    {
+      "claim_id": "control-central-state-presupposition",
+      "statement": "A single network can observe and alter multiple signal states quickly enough for authority over changes to become a live issue.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "control-wireless-network",
+        "control-engineer-request"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "answer_space": {
+    "accepted": [
+      {
+        "claim_id": "control-published-rule-answer",
+        "statement": "Permit automatic changes only under conditions published by the council.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "control-governance-options"
+        ],
+        "certainty": "high"
+      }
+    ],
+    "marginal": [
+      {
+        "claim_id": "control-engineer-discretion-answer",
+        "statement": "Allow the engineering office to override published conditions during congestion.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "control-engineer-request"
+        ],
+        "certainty": "high"
+      }
+    ],
+    "unthinkable_or_impossible": [],
+    "scope_note": "The fixture leaves the unthinkable category empty because the invented records do not support a boundary claim."
+  },
+  "competing_formulations": [
+    {
+      "formulation_id": "control-efficiency-formulation",
+      "text": "How quickly may engineers clear congestion without waiting for a council vote?",
+      "source_type": "actor_explicit",
+      "actor_ids": [
+        "control-port-engineers"
+      ],
+      "evidence_ids": [
+        "control-engineer-request"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "control-installation-report",
+      "source_type": "institutional_record",
+      "citation": "Fictional Port Engineering Office, Shared Signal Network Installation Report (1949).",
+      "locator": "sections 1 and 6",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    },
+    {
+      "source_id": "control-council-minutes",
+      "source_type": "institutional_record",
+      "citation": "Fictional Municipal Harbor Council, Signal-Control Hearings (1950–1951).",
+      "locator": "sessions 3, 5, and appendix A",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "control-reorganization-date",
+      "source_id": "control-installation-report",
+      "evidence_type": "quotation",
+      "locator": "section 1",
+      "excerpt": "Installation began in 1949; the council shall review operating authority after two winters and issue a rule in 1951.",
+      "interpretation": "Bounds the fictional episode."
+    },
+    {
+      "evidence_id": "control-wireless-network",
+      "source_id": "control-installation-report",
+      "evidence_type": "quotation",
+      "locator": "section 6",
+      "excerpt": "One desk may now observe and change every entrance signal without fuel delivery or attendance at the lamp site.",
+      "interpretation": "Documents the altered technical and institutional conditions."
+    },
+    {
+      "evidence_id": "control-engineer-request",
+      "source_id": "control-council-minutes",
+      "evidence_type": "quotation",
+      "locator": "session 3",
+      "excerpt": "During congestion the engineering desk must vary the signals at once, without awaiting a fresh council instruction.",
+      "interpretation": "Supports the engineering formulation and discretionary answer."
+    },
+    {
+      "evidence_id": "control-council-rule",
+      "source_id": "control-council-minutes",
+      "evidence_type": "quotation",
+      "locator": "session 5",
+      "excerpt": "No shared signal shall change except under a condition stated beforehand in a public control rule.",
+      "interpretation": "Supports the council's authority formulation."
+    },
+    {
+      "evidence_id": "control-question",
+      "source_id": "control-council-minutes",
+      "evidence_type": "paraphrase",
+      "locator": "sessions 3–5",
+      "excerpt": "The sessions repeatedly oppose immediate engineering discretion to prior public authorization.",
+      "interpretation": "Summarizes the reconstructed problem without presenting it as a direct quotation."
+    },
+    {
+      "evidence_id": "control-governance-options",
+      "source_id": "control-council-minutes",
+      "evidence_type": "quotation",
+      "locator": "appendix A",
+      "excerpt": "Options: council conditions only; engineering override with a written log; or an automatic schedule with no override.",
+      "interpretation": "Bounds the documented governance answer space."
+    },
+    {
+      "evidence_id": "control-retrospective",
+      "source_id": "control-council-minutes",
+      "evidence_type": "reception_claim",
+      "locator": "session 5",
+      "excerpt": "This is the same harbor signaling question our predecessor board faced when it rationed lamp fuel.",
+      "interpretation": "Records a later actor's continuity claim without deciding that the claim is correct."
+    }
+  ],
+  "relations": [
+    {
+      "relation_id": "control-to-data",
+      "source_episode_id": "harbor-signal-control-1950",
+      "target_episode_id": "harbor-navigation-data-2080",
+      "relation": "undetermined",
+      "identity_status": "contested",
+      "confidence": "high",
+      "identity_claims": [
+        {
+          "claim_id": "data-historian-undetermined-claim",
+          "claimant_type": "historian",
+          "proposed_relation": "undetermined",
+          "evidence_ids": [
+            "control-wireless-network",
+            "data-system-lineage",
+            "data-retention-dispute"
+          ],
+          "note": "Technical descent is documented, but the available material does not show whether actors inherited the earlier authority dispute or only its infrastructure."
+        }
+      ],
+      "continuity_evidence": [
+        {
+          "dimension": "historical_recognition",
+          "evidence_ids": [
+            "data-system-lineage"
+          ],
+          "note": "The later data system is described as a descendant of the shared signal network."
+        },
+        {
+          "dimension": "stakes",
+          "evidence_ids": [
+            "control-council-rule",
+            "data-authorization-demand"
+          ],
+          "note": "Both episodes contain a demand that network decisions be governed by an accountable public rule."
+        }
+      ],
+      "discontinuity_evidence": [
+        {
+          "dimension": "target_object",
+          "evidence_ids": [
+            "control-question",
+            "data-retention-dispute"
+          ],
+          "note": "Signal-state changes and retention of vessel histories are different immediate objects."
+        },
+        {
+          "dimension": "historical_recognition",
+          "evidence_ids": [
+            "data-no-debate-citation"
+          ],
+          "note": "The later actors cite the inherited system but not the earlier control-authority debate."
+        }
+      ],
+      "dimensions": {
+        "target_object": {
+          "assessment": "no",
+          "evidence_ids": [
+            "control-question"
+          ],
+          "counterevidence_ids": [
+            "data-retention-dispute"
+          ],
+          "note": "The disputed operation changes from signal states to data retention."
+        },
+        "stakes": {
+          "assessment": "partial",
+          "evidence_ids": [
+            "control-council-rule",
+            "data-authorization-demand"
+          ],
+          "counterevidence_ids": [
+            "data-service-defense",
+            "data-authorization-demand"
+          ],
+          "note": "Accountability overlaps, but privacy becomes a distinct later stake."
+        },
+        "presuppositions": {
+          "assessment": "partial",
+          "evidence_ids": [
+            "control-wireless-network",
+            "data-system-lineage"
+          ],
+          "counterevidence_ids": [
+            "data-retention-dispute"
+          ],
+          "note": "A shared infrastructure persists, while durable per-vessel histories are new."
+        },
+        "answer_space": {
+          "assessment": "no",
+          "evidence_ids": [
+            "control-governance-options"
+          ],
+          "counterevidence_ids": [
+            "data-retention-options"
+          ],
+          "note": "Control-rule options do not directly settle deletion and retention."
+        },
+        "historical_recognition": {
+          "assessment": "weak",
+          "evidence_ids": [
+            "data-system-lineage"
+          ],
+          "counterevidence_ids": [
+            "data-no-debate-citation"
+          ],
+          "note": "Infrastructure lineage is explicit; problem lineage is not."
+        },
+        "askability": {
+          "assessment": "changed",
+          "evidence_ids": [
+            "data-retention-dispute"
+          ],
+          "counterevidence_ids": [
+            "control-wireless-network"
+          ],
+          "note": "Long-lived navigation histories create the later question's askability."
+        }
+      },
+      "tests": {
+        "answer_transfer": {
+          "outcome": "category_error",
+          "evidence_ids": [
+            "control-governance-options",
+            "data-retention-options"
+          ],
+          "reasoning": "Rules for changing signals do not answer how long a vessel history may be retained."
+        },
+        "presupposition_removal": {
+          "outcome": "partly_persists",
+          "evidence_ids": [
+            "control-wireless-network",
+            "data-system-lineage"
+          ],
+          "reasoning": "Shared control persists, but the later dispute depends on durable identity-linked records."
+        },
+        "historical_recognition": {
+          "outcome": "weak",
+          "evidence_ids": [
+            "data-system-lineage",
+            "data-no-debate-citation"
+          ],
+          "reasoning": "The system lineage is named while continuity of the debate remains unsupported."
+        }
+      },
+      "decision_note": "The fixture deliberately retains undetermined as a high-confidence statement about evidential insufficiency, not as a weakly considered label.",
+      "reviewed_by": []
+    }
+  ],
+  "hindsight_risks": [
+    {
+      "risk_id": "control-automation-hindsight",
+      "description": "A present-day analyst may call the episode an algorithmic-governance debate even though the actors use network-control language.",
+      "mitigation": "Keep the reconstructed formulation tied to the two documented actor positions.",
+      "evidence_ids": [
+        "control-engineer-request",
+        "control-council-rule"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "risk_id": "control-umbrella-uncertainty",
+      "description": "The umbrella formulation is not a sentence uttered by either side.",
+      "mitigation": "Mark it actor_reconstructed, require two evidence items, and retain both competing formulations.",
+      "evidence_ids": [
+        "control-engineer-request",
+        "control-council-rule"
+      ]
+    }
+  ],
+  "audit": {
+    "record_status": "draft",
+    "created_by": "fixture-author",
+    "last_updated": "2026-09-01",
+    "reviewed_by": []
+  }
+}
