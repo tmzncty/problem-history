@@ -247,8 +247,8 @@ reformulated / narrowed / broadened / split / merged / displaced / revived
 
 这轮只完成了命名和方法谱系的第一层查重。后面最值得继续挖的是：
 
-- [ ] 直接精读 Hartmann 1909/1910《Zur Methode der Philosophiegeschichte》，抽取他的 problem / Problemlage / Problemstellung 层级；
-- [ ] 精读 Gadamer 对“同一问题”假设的反驳，判断能否直接转成 identity-check；
+- [x] 完成 Hartmann 1909/1910《Zur Methode der Philosophiegeschichte》第一轮 source audit，恢复 Problemgehalt / Problemlage / Problemstellung 的方法层级；仍欠原刊或 1958 重印 direct page-image。详见 [`method-lineage/HARTMANN-GADAMER.md`](./method-lineage/HARTMANN-GADAMER.md)；
+- [x] 精读 Gadamer 1924《Zur Systemidee in der Philosophie》与 1960《Truth and Method》对跨历史“同一问题”假设的反驳，并形成 Historical Motivation Test 候选；先回测案例，不直接升级 validator。详见 [`method-lineage/HARTMANN-GADAMER.md`](./method-lineage/HARTMANN-GADAMER.md)；
 - [ ] 调查 Rudolf Unger 的文学史 Problemgeschichte，与 Werle 的修订方案比较；
 - [ ] 研究 Oexle 所谓 Max Weber “Geschichte als Problemgeschichte”，严格区分科学史中的研究问题与行动者问题；
 - [ ] 对 Werle 的实际文学史案例做一次反向标注，看 Problem Episode schema 能不能无损表达；
