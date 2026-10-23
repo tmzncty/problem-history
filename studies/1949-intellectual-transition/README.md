@@ -34,6 +34,8 @@
 
 ## 目前建议的关系
 
+关系端点引用每个 episode 首个 YAML metadata block 中的稳定 `episode_id`；文件名只用于阅读排序，重命名文件不得改变节点身份。
+
 ```yaml
 relations:
   - from: 1949-state-building
