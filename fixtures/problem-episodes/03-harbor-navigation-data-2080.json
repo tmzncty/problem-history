@@ -1,0 +1,274 @@
+{
+  "$schema": "../../schemas/problem-episode.schema.json",
+  "schema_version": "0.1.0",
+  "record_type": "problem_episode",
+  "episode_id": "harbor-navigation-data-2080",
+  "title": "Fictional fixture: retention of vessel navigation histories",
+  "is_fixture": true,
+  "period": {
+    "label": "2080 navigation-data hearing",
+    "start_year": 2080,
+    "end_year": 2080,
+    "precision": "exact",
+    "evidence_ids": [
+      "data-hearing-date"
+    ],
+    "note": "The invented hearing record is dated 2080."
+  },
+  "status": "active",
+  "context": [
+    {
+      "claim_id": "data-history-context",
+      "statement": "The navigation service stores identity-linked approach histories after a vessel leaves the harbor.",
+      "epistemic_status": "actor_explicit",
+      "evidence_ids": [
+        "data-retention-dispute"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "actors": [
+    {
+      "actor_id": "data-navigation-service",
+      "label": "Fictional Harbor Navigation Service",
+      "role": "Uses retained histories to personalize routing warnings.",
+      "evidence_ids": [
+        "data-service-defense"
+      ]
+    },
+    {
+      "actor_id": "data-mariner-coalition",
+      "label": "Fictional Mariner Privacy Coalition",
+      "role": "Demands purpose limits, deletion, and reviewable authorization.",
+      "evidence_ids": [
+        "data-authorization-demand"
+      ]
+    }
+  ],
+  "formulations": [
+    {
+      "formulation_id": "data-researcher-formulation",
+      "text": "Under what conditions did retained navigation history become an object of harbor governance?",
+      "source_type": "researcher_analytic",
+      "actor_ids": [],
+      "evidence_ids": [
+        "data-retention-dispute",
+        "data-service-defense",
+        "data-authorization-demand"
+      ],
+      "certainty": "medium",
+      "researcher_note": "This analytic formulation organizes the fixture for comparison; no actor uses this exact historical-emergence wording."
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "approach history",
+      "term_source_type": "actor_explicit",
+      "meaning_in_context": "An identity-linked record of a vessel's prior routes and warnings.",
+      "evidence_ids": [
+        "data-retention-dispute"
+      ]
+    },
+    {
+      "term": "navigation-data governance",
+      "term_source_type": "researcher_analytic_label",
+      "meaning_in_context": "The fixture author's umbrella label for otherwise separate retention, authorization, and deletion formulations.",
+      "evidence_ids": [
+        "data-retention-dispute",
+        "data-authorization-demand"
+      ],
+      "provenance_note": "No fictional actor uses this phrase; it exists only to demonstrate how a researcher label remains visible in the data."
+    }
+  ],
+  "institutions": [
+    {
+      "institution_id": "data-navigation-platform",
+      "label": "Fictional Harbor Navigation Platform",
+      "role": "Collects, retains, and applies vessel histories to later routing decisions.",
+      "evidence_ids": [
+        "data-system-lineage",
+        "data-retention-dispute"
+      ]
+    }
+  ],
+  "stakes": [
+    {
+      "claim_id": "data-privacy-stake",
+      "statement": "Participants oppose personalization and accident review to privacy, purpose limitation, and the ability to erase identity-linked histories.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "data-service-defense",
+        "data-authorization-demand"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "presuppositions": [
+    {
+      "claim_id": "data-durable-history-presupposition",
+      "statement": "The dispute presupposes that records remain attributable and usable after the immediate navigation event.",
+      "epistemic_status": "context_supported",
+      "evidence_ids": [
+        "data-retention-dispute"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "answer_space": {
+    "accepted": [
+      {
+        "claim_id": "data-purpose-limit-answer",
+        "statement": "Retain histories for accident review under a fixed deletion deadline.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "data-retention-options"
+        ],
+        "certainty": "high"
+      }
+    ],
+    "marginal": [
+      {
+        "claim_id": "data-vessel-control-answer",
+        "statement": "Let each vessel inspect and revoke its own history immediately after departure.",
+        "epistemic_status": "actor_explicit",
+        "evidence_ids": [
+          "data-retention-options"
+        ],
+        "certainty": "medium"
+      }
+    ],
+    "unthinkable_or_impossible": [],
+    "scope_note": "No unthinkable answer is inferred from silence in the hearing."
+  },
+  "competing_formulations": [
+    {
+      "formulation_id": "data-service-formulation",
+      "text": "How much history is needed to issue safer warnings on a vessel's next visit?",
+      "source_type": "actor_explicit",
+      "actor_ids": [
+        "data-navigation-service"
+      ],
+      "evidence_ids": [
+        "data-service-defense"
+      ],
+      "certainty": "high"
+    },
+    {
+      "formulation_id": "data-coalition-formulation",
+      "text": "Who authorizes reuse of a vessel's movements after the voyage for which they were collected?",
+      "source_type": "actor_explicit",
+      "actor_ids": [
+        "data-mariner-coalition"
+      ],
+      "evidence_ids": [
+        "data-authorization-demand"
+      ],
+      "certainty": "high"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "data-hearing-record",
+      "source_type": "institutional_record",
+      "citation": "Fictional Harbor Data Commission, Navigation-History Hearing (2080).",
+      "locator": "opening notice and testimony 2–7",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    },
+    {
+      "source_id": "data-platform-history",
+      "source_type": "institutional_record",
+      "citation": "Fictional Harbor Navigation Service, Platform Lineage Note (2080).",
+      "locator": "paragraphs 1–3",
+      "retrievable": false,
+      "notes": "Fictional calibration source."
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "data-hearing-date",
+      "source_id": "data-hearing-record",
+      "evidence_type": "quotation",
+      "locator": "opening notice",
+      "excerpt": "The Commission opens this navigation-history hearing on 4 May 2080.",
+      "interpretation": "Dates the fictional episode."
+    },
+    {
+      "evidence_id": "data-retention-dispute",
+      "source_id": "data-hearing-record",
+      "evidence_type": "quotation",
+      "locator": "testimony 2",
+      "excerpt": "Approach histories remain linked to vessel identity for ten years and shape warnings on later visits.",
+      "interpretation": "Establishes durable identity-linked retention as the immediate object."
+    },
+    {
+      "evidence_id": "data-service-defense",
+      "source_id": "data-hearing-record",
+      "evidence_type": "quotation",
+      "locator": "testimony 4",
+      "excerpt": "Without the earlier routes we cannot personalize shallow-water warnings or compare a new anomaly to prior approaches.",
+      "interpretation": "Provides the service's safety and personalization formulation."
+    },
+    {
+      "evidence_id": "data-authorization-demand",
+      "source_id": "data-hearing-record",
+      "evidence_type": "quotation",
+      "locator": "testimony 5",
+      "excerpt": "A navigation authorization is not permission for indefinite reuse; every later purpose requires a public rule and a deletion right.",
+      "interpretation": "Provides the coalition's authorization formulation."
+    },
+    {
+      "evidence_id": "data-retention-options",
+      "source_id": "data-hearing-record",
+      "evidence_type": "quotation",
+      "locator": "testimony 7",
+      "excerpt": "Proposals include a two-year accident-review window, immediate vessel-controlled deletion, and ten-year service retention.",
+      "interpretation": "Bounds the documented retention answer space."
+    },
+    {
+      "evidence_id": "data-system-lineage",
+      "source_id": "data-platform-history",
+      "evidence_type": "reception_claim",
+      "locator": "paragraph 1",
+      "excerpt": "The present platform descends technically from the shared signal-control network installed in 1949.",
+      "interpretation": "Supports infrastructure succession but does not itself establish problem continuity."
+    },
+    {
+      "evidence_id": "data-no-debate-citation",
+      "source_id": "data-platform-history",
+      "evidence_type": "silence",
+      "locator": "paragraphs 1–3",
+      "excerpt": "The note lists hardware and protocol predecessors but names no earlier debate about control authority.",
+      "interpretation": "Limits the strength of historical recognition evidence; absence in one note is not proof of no lineage elsewhere."
+    }
+  ],
+  "relations": [],
+  "hindsight_risks": [
+    {
+      "risk_id": "data-privacy-label-hindsight",
+      "description": "A researcher may collapse distinct safety, authorization, and deletion formulations into the modern umbrella label privacy.",
+      "mitigation": "Preserve the umbrella as researcher_analytic and retain the actors' competing formulations separately.",
+      "evidence_ids": [
+        "data-service-defense",
+        "data-authorization-demand"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "risk_id": "data-lineage-uncertainty",
+      "description": "Technical descent from the 1949 network does not prove that the 2080 actors inherited its problem formulation.",
+      "mitigation": "Keep the cross-episode relation undetermined pending evidence of debate transmission.",
+      "evidence_ids": [
+        "data-system-lineage",
+        "data-no-debate-citation"
+      ]
+    }
+  ],
+  "audit": {
+    "record_status": "draft",
+    "created_by": "fixture-author",
+    "last_updated": "2026-09-01",
+    "reviewed_by": []
+  }
+}

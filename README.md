@@ -107,7 +107,15 @@ docs/
 ├── PRIOR_ART.md
 ├── METHOD.md
 └── DATA_MODEL.md
+
+schemas/
+└── problem-episode.schema.json
+
+fixtures/problem-episodes/
+└── 纯虚构的 schema 校准案例
 ```
+
+数据字段、最小引用规范、虚构 fixture 和本地验证命令见 [`docs/DATA_MODEL.md`](docs/DATA_MODEL.md)。Schema 只检查论证结构与引用关系，不自动裁决历史结论。
 
 ## 第一阶段验收
 
