@@ -1,6 +1,7 @@
 # Episode 03 — 1956：知识分子从“需要改造的人”重新成为“国家能力的稀缺条件”
 
 ```yaml
+episode_id: 1956-science-construction
 problem_id: intellectual-scientific-capacity
 period: 1956
 status: transformed
