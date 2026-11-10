@@ -1,0 +1,28 @@
+{
+  "episode": {
+    "id": "fictional-episode",
+    "time_range": "1900–1910",
+    "place_or_institution": [],
+    "episode_unit": "debate"
+  },
+  "problem_formulations": [
+    {
+      "type": "researcher_analytic",
+      "text": "Invented question, not a historical actor formulation",
+      "evidence": [],
+      "confidence": "undetermined"
+    }
+  ],
+  "sources": [],
+  "claims": [],
+  "uncertainty": {
+    "competing_reconstructions": [],
+    "evidence_gaps": [
+      "No primary sources: fictional fixture"
+    ],
+    "hindsight_risks": [
+      "Do not treat as historical evidence"
+    ]
+  },
+  "research_status": "candidate"
+}
