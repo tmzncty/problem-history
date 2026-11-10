@@ -1,0 +1,32 @@
+{
+  "episode": {
+    "id": "fictional-reconstructed",
+    "time_range": "1900–1910",
+    "place_or_institution": [],
+    "episode_unit": "debate"
+  },
+  "problem_formulations": [
+    {
+      "type": "reconstructed_actor",
+      "text": "Invented actor question",
+      "evidence": [],
+      "confidence": "low",
+      "actor_language": "undetermined",
+      "competing_readings": [
+        "Alternative fictional reconstruction"
+      ]
+    }
+  ],
+  "sources": [],
+  "claims": [],
+  "uncertainty": {
+    "competing_reconstructions": [],
+    "evidence_gaps": [
+      "No primary sources: fictional fixture"
+    ],
+    "hindsight_risks": [
+      "Do not treat as historical evidence"
+    ]
+  },
+  "research_status": "candidate"
+}
